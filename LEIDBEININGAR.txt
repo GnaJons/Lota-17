@@ -1,0 +1,16 @@
+LOTA 17 – VEFHEFTI
+
+Opnaðu index.html í nýlegum Chrome, Edge eða Firefox. Haltu myndir/, geogebra/ og graf/ möppunum með HTML-skjalinu.
+
+Á forsíðu velurðu tíma, gátlista, hugtök eða prentútgáfu. Appelsínugul hugtök eru smellanleg og tengillinn „Til baka í textann“ skilar þér á sama stað.
+
+PDF TIL PRENTUNAR
+lota17-prent.pdf er prentútgáfa vefheftisins.
+geogebra-leidsogn.pdf er sérstök tveggja síðna GeoGebra-leiðsögn með raunverulegum skjáskotum.
+Prentið í 100% stærð eða „Raunstærð“ á Letter til að varðveita samþykkta sniðið.
+
+HÝSING OG GOOGLE SITES
+Haltu öllu innihaldi pakkans saman þegar það er sett á hýsingu. Afritun HTML-kóðans ein og sér í Google Sites flytur ekki myndir og PDF-skrár með.
+Til innfellingar í Google Sites þarf aðgengilega hýsta vefslóð. Vefurinn er ekki enn birtur á netinu. Staðbundna skráin index.html og allar fylgiskrár eru tilbúnar.
+
+Kennaranóta geymir myndakortlagningu, efnisbreytingar og prófunarstöðu.

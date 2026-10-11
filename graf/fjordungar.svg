@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" width="600" height="403.125" role="img" aria-labelledby="fjor-title fjor-desc" style="--fig-width:480px">
+<title id="fjor-title">Fjórir fjórðungar hnitakerfisins</title>
+<desc id="fjor-desc">Fyrsti fjórðungur er efst til hægri, með jákvætt x og y. Annar er efst til vinstri, með neikvætt x og jákvætt y. Þriðji er neðst til vinstri, með neikvætt x og y. Fjórði er neðst til hægri, með jákvætt x og neikvætt y. Ásarnir tilheyra engum fjórðungi.</desc>
+<rect x="60" y="40" width="260" height="170" fill="#fbf4dc"/><rect x="320" y="40" width="260" height="170" fill="#e1f2ef"/>
+<rect x="60" y="210" width="260" height="170" fill="#f8ecf1"/><rect x="320" y="210" width="260" height="170" fill="#eef3ef"/>
+<g stroke="#d6ded8" stroke-width="1" fill="none">
+<path d="M110 40V380M180 40V380M250 40V380M390 40V380M460 40V380M530 40V380M60 70H580M60 140H580M60 280H580M60 350H580"/>
+</g>
+<g fill="#073b63" stroke="#073b63" stroke-width="2"><path d="M42 210H600M320 399V19" fill="none"/><path d="M600 210L590 205V215ZM320 19L315 29H325Z"/></g>
+<g fill="#073b63" font-family="Georgia,serif" text-anchor="middle">
+<g font-size="25" font-weight="bold"><text x="450" y="111">I. fjórðungur</text><text x="190" y="111">II. fjórðungur</text><text x="190" y="319">III. fjórðungur</text><text x="450" y="319">IV. fjórðungur</text></g>
+<g font-family="Cambria Math,Georgia,serif" font-size="30"><text x="450" y="151">(+, +)</text><text x="190" y="151">(−, +)</text><text x="190" y="358">(−, −)</text><text x="450" y="358">(+, −)</text></g>
+<g font-family="Cambria Math,Georgia,serif" font-size="23"><text x="607" y="237" font-style="italic">x</text><text x="343" y="27" font-style="italic">y</text><text x="365" y="265">(0, 0)</text><text x="250" y="236">−1</text><text x="390" y="236">1</text><text x="298" y="148">1</text><text x="292" y="287">−1</text></g>
+</g><circle cx="320" cy="210" r="4" fill="#073b63"/>
+</svg>
