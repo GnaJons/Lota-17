@@ -1,16 +1,35 @@
 LOTA 17 – VEFHEFTI
+Útgáfa 1.16 · 23. nóvember 2026
 
-Opnaðu index.html í nýlegum Chrome, Edge eða Firefox. Haltu myndir/, geogebra/ og graf/ möppunum með HTML-skjalinu.
+Heftið nær yfir níu kennslutíma. Tímar 6–7 eru saman í einum kafla; þar á eftir koma 8. og 9. tími. Sýnidæmin eru númeruð 1–15 og gátlistinn hefur 17 markmið eftir tímum.
 
-Á forsíðu velurðu tíma, gátlista, hugtök eða prentútgáfu. Appelsínugul hugtök eru smellanleg og tengillinn „Til baka í textann“ skilar þér á sama stað.
+Opnaðu index.html í nýlegum Chrome, Edge eða Firefox. Haltu myndir/, geogebra/, graf/, myndbond/ og aefingar/ möppunum og PDF-skránum með HTML-skjalinu.
+
+Á forsíðu velurðu tíma, gátlista, hugtök eða prentútgáfu. Appelsínugul hugtök eru smellanleg. „Til baka í textann“ skilar þér að hugtakinu sem þú valdir.
+
+Hnitamyndir halda samþykktri stærð og samræmdu Cambria Math letri. Innsett gildi eru í grænbláum svigum, lokasvör tvöfalt undirstrikuð og jafnaðarmerki í lausnarskrefum standa hvert undir öðru.
+
+GÁTLISTI
+Merkingar geymast í sama vafra þegar vafrageymsla er tiltæk. Ný, sameinuð markmið byrja ómerkt svo eldri hak tákni ekki sjálfkrafa víðtækari færni.
+
+Prentuppsetningin hefur þéttari síðuskipti og heldur myndum með skýringum. Letur, línubil og stærð grafanna haldast óbreytt; gátlistinn rúmast á einni síðu.
 
 PDF TIL PRENTUNAR
-lota17-prent.pdf er prentútgáfa vefheftisins.
-geogebra-leidsogn.pdf er sérstök tveggja síðna GeoGebra-leiðsögn með raunverulegum skjáskotum.
+lota17-prent.pdf: 19 síður.
+geogebra-leidsogn.pdf: tvær síður með raunverulegum skjáskotum.
 Prentið í 100% stærð eða „Raunstærð“ á Letter til að varðveita samþykkta sniðið.
 
 HÝSING OG GOOGLE SITES
-Haltu öllu innihaldi pakkans saman þegar það er sett á hýsingu. Afritun HTML-kóðans ein og sér í Google Sites flytur ekki myndir og PDF-skrár með.
-Til innfellingar í Google Sites þarf aðgengilega hýsta vefslóð. Vefurinn er ekki enn birtur á netinu. Staðbundna skráin index.html og allar fylgiskrár eru tilbúnar.
+Setjið allan pakkann saman á hýsingu. Afritun HTML-kóðans ein og sér flytur ekki PDF-skrár og myndir með. Til innfellingar í Google Sites þarf hýsta vefslóð. Vefútgáfa: https://gnajons.github.io/Lota-17/.
 
-Kennaranóta geymir myndakortlagningu, efnisbreytingar og prófunarstöðu.
+NAMSEFNISYFIRLIT.md tengir núverandi tíma við upprunaleg verkefnablöð. KENNARANOTA.md skráir efnisval, heimildir og prófanir.
+
+MYNDSKEIÐ
+14 myndskeið eru í lokuðum reitum við viðeigandi kafla. Opnaðu reit og veldu spilun. Myndskeið og reitir þeirra birtast ekki í prenti. Frumkóði er í myndbond/frumkodar og yfirferð er skráð í MYNDSKEID-YFIRFERD.md.
+
+GAGNVIRKAR ÆFINGAR
+Neðst í hverjum efniskafla er lokaður reitur merktur „Æfing“. Tímar 6–7 hafa sameiginlega æfingu. Samtals eru átta æfingar og 57 verkefni.
+
+Opnaðu reitinn og leystu eitt verkefni í einu. „Vísbending“ veitir hjálp og „Athuga svar“ gefur endurgjöf. Þú getur farið til baka eða valið verkefni úr yfirliti. „Æfa aftur“ byrjar sömu verkefni upp á nýtt. Framvinda hvers tíma geymist sérstaklega í vafranum þegar vafrageymsla er tiltæk. Engin nöfn eða svör eru send til kennara.
+
+Talnasvör mega innihalda kommu eða punkt, mínus og brot, t.d. −1,5 eða −3/2. Æfingarnar virka í reitnum eða í sér glugga. Þær fylgja ZIP-pakkanum og þurfa ekki nettengingu. Þær birtast ekki í prenti. Vefútgáfa: https://gnajons.github.io/Lota-17/.

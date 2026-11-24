@@ -1,75 +1,76 @@
-# Kennaranóta – vefhefti Lotu 17
+# Kennaranóta – Lota 17
 
-Dagsetning: 11. október 2026. Vefútgáfa 1.3 – myndir minnkaðar um 35%.
+Útgáfa 1.16 · 23. nóvember 2026
 
-## Efni og uppsetning
+## Breytingar í útgáfu 1.16
 
-Grunnurinn er síðasta samþykkta leshefti Lotu 17 (útgáfa 1.3) úr þessu spjalli. Tölur og niðurstöður sýnidæma eru varðveittar. Tímaskiptingin er 1.–10. tími, með 6.–8. tíma í einum kafla, eins og í lesheftinu. Verkefnablöðin sem kennari lagði upphaflega fram eru heimildir efnisvals, ekki birt sem lausnahefti.
+Kennari óskaði eftir skilgreiningu á jöfnu beinnar línu, að umfjöllun um rétt hlutfall yrði sleppt og að gagnvirkar æfingar bættust við hvern tíma. Skilgreiningin er í 3. tíma og hugtakaskránni. Formið y = hx + k er afmarkað við línur sem eru ekki lóðréttar. Átta–tíu 6, bls. 22, var lesin aftur og skoðuð sem mynd við þessa breytingu; tákn kennarans h og k haldast.
 
-Fasti Lota 28 stíllinn er varðveittur: grunn-CSS er óbreytt, með sértækri viðbót fyrir 35% myndaminnkun að beiðni kennara; hegðunarskráin er óbreytt fyrir utan geymslulykilinn `lota17-v1-2026-10-11`. Efni Lotu 28, heimaverkefni hennar og dagsetningar eru ekki flutt með. Myndbönd fylgdu ekki og engum var bætt við.
+Átta æfingar með samtals 57 verkefnum eru neðst í köflunum í lokuðum reitum. Tímar 6–7 deila einni æfingu. Öll átta frumverkefnablöðin voru lesin, þar á meðal myndir þeirra; nýju dæmin nota sambærilegar aðferðir og nýjar tölur. Efnisvörpun á verkefnanúmer er varðveitt í vinnugögnum.
 
-31 sýnidæmi, 14 nákvæmar hnitamyndir og gröf í SVG, 22 hugtök, 32 gátlistaatriði og allar 10 innsendar teikningar. Að beiðni kennara var bætt við mynd allra fjögurra fjórðunga í „Kvarði og fjórðungar“, með númerum, formerkjum, ásum og upphafspunkti. Innsendu teikningarnar eru óbreyttar PNG-skrár. Þær lýsa aðstæðum; fjöldi bóka, mynta og kubba á þeim er ekki tölugildi dæmisins. Stærðfræðitölur eru áfram í texta, töflum og nákvæmum gröfum.
+Æfingarnar hafa vísbendingar, sjálfvirka yfirferð, skýringar eftir rétt svar, flakk, yfirlit og endurtekningu. „Æfa aftur“ byrjar sömu verkefni upp á nýtt. Framvinda geymist í vafranum þegar vafrageymsla er tiltæk. Nöfnum er ekki safnað og svör eru ekki send til kennara.
 
-Hugtakatenglar fara aftur í nákvæman upprunastað. Gátlisti vistast í vafra þegar geymsla er tiltæk og virkar áfram án hennar. Engar merkingar eru sendar á netþjón.
+Rétt og röng svör, tómir reitir, vísbendingar, lyklaborð, aflestur með myndavali, endurhleðsla, yfirlit og endurtekning voru prófuð í öllum æfingunum. Innsláttur með kommu, punkti, mínus og jafngildum brotum var prófaður. Allar 57 verkefnamyndir voru skoðaðar og uppsetning mæld á 320 og 390 px skjá. Innfelldar æfingar og sérslóðir voru prófaðar bæði frá staðbundinni möppu og í staðbundinni vefþjónustu.
 
-## Prentun og GeoGebra
+## Fyrri samanburður orðalags við kennslubækur
 
-Prentheftið er myndað úr sama HTML með samþykktu Letter-sniði, letri og spássíum. Það er 37 blaðsíður. Síðufjöldi vefprentsins fylgir Lota 28 sniðinu og myndunum og er því annar en í fyrra LaTeX-hefti.
+Eftirfarandi skrá varðveitir fyrri yfirferð orðalags og heimilda. Hún er ekki fullyrðing um nýjan heildarsamanburð allra bókanna í útgáfu 1.16.
 
-GeoGebra-leiðsögnin birtist í opnanlegum reit við réttan kafla og notar átta raunveruleg skjáskot. Prenttengill leiðir í sérstakt tveggja síðna skjal. Orðalag leiðsagnarinnar var yfirfarið samhliða vefnum. Að fengnu svari kennara notar punktalistinn merkimiðadæmið úr 5. tíma: 1.800 kr. fastan kostnað og 75 kr. á miða. Fyrir 0–5 miða eru útkomurnar 1.800, 1.875, 1.950, 2.025, 2.100 og 2.175 kr. Skjáskot og örvar eru varðveitt. Prenthefti vefsins sýnir tengil á leiðsögnina en endurprentar ekki opnanlega skjáskotareitinn.
+## Orðalag borið saman við fleiri íslenskar kennslubækur
 
-Til að forðast endurtekningu var ein lokaáminning í 9. tíma felld brott: prófun þriðja punkts er þegar sýnd í sama dæmi og láréttar/lóðréttar línur eru útskýrðar í 10. tíma. Síðutilvísunum var breytt í kaflatengla. Ekkert stærðfræðilegt lokasvar var breytt. Fyrra LaTeX-heftið er áfram óbreytt.
+Allt orðalag vefheftisins var lesið: yfirlit, allir átta efniskaflarnir, 15 sýnidæmi, töflur, reglur, myndatextar, aðgengislýsingar mynda, GeoGebra-leiðsögn, 17 gátlistamarkmið og 21 hugtak. Einnig var lesinn texti sjálfstæðu tveggja síðna GeoGebra-leiðsagnarinnar og fylgiskjalanna. Við samanburð voru lesnir viðeigandi kaflar og síður úr bókunum hér að neðan; ekki er fullyrt að kennslubækurnar hafi allar verið lesnar frá upphafi til enda.
 
-## Málfarsyfirferð 11. október 2026
+Þrjár kennslubækur bætast við fyrri heimild, Skala 2A: Skali 1A, Skali 1B og Átta–tíu 6. Hugtakasafn í stærðfræði var notað til viðbótar. Texti heftisins er áfram sjálfstætt saminn. Dæmi, tölur og myndir eru ekki afrituð úr heimildabókunum.
 
-Allur sýnilegur kennslutexti, fyrirsagnir, gátlisti, hugtakaskrá, myndlýsingar og GeoGebra-leiðsögn voru lesin og yfirfarin. Klunnalegar setningar voru endurorðaðar og hugtök samræmd, meðal annars hornpunktur, hallatala, fallgildi og ónámundað gildi. Heiti 4. tíma er nú „Föll í orðum, töflum og gröfum“. Hlið fernings er táknuð með h samkvæmt föstum óskum kennara.
+## Heimildir og staðfestar síður
 
-Tafla sem endurtók fjórðungamyndina var felld brott, ásamt endurtekinni áminningu um ása. Þrjár staðsetningar fjórða hornpunkts samsíðungs eru áfram sýndar í skrefum og á mynd; endurtekin flýtileið á eftir var felld brott. Skýringar um heil tímaskref og nokkrar lokaáminningar voru sameinaðar eða styttar. Engu sýnidæmi eða mynd var eytt. Stutta rétthyrningsdæminu er haldið saman í prentun með fyrirliggjandi prentreglum.
-
-Kennari var spurður um óskýran punktalista í GeoGebra og valdi að nota merkimiðadæmið úr 5. tíma. Sú ákvörðun er komin bæði í vefinn og leiðsagnar-PDF. Önnur lokasvör sýnidæma eru óbreytt. Engin óleyst orðalagsatriði eru skráð eftir yfirferðina.
-
-Fastur stíll og geymslulykill eru óbreytt. Yfirferð náði til staðbundinnar vefútgáfu og prentskjala hennar. Eldra Overleaf-/LaTeX-hefti í ytri outputs-möppunni var ekki uppfært.
-
-## Bil sett í orð – ósk kennara
-
-Kennari óskaði eftir minni notkun á framsetningu á borð við 0 ≤ x ≤ 4 og fleiri skýringum í orðum. Í vefútgáfu 1.2 voru nítján texta- og formúluatriði uppfærð: tímabil, leigutími, fjöldi miða og bóka, mæligildi og myndmengi. Rafhlöðudæmið notar töflu með tímabilum í orðum og óbreyttum formúlum. Sama orðalag er notað í sérstöku GeoGebra-prentskjali þar sem áður var táknað bil endurtekið í skýringartexta.
-
-Ójöfnumerki halda sér þar sem unnið er með ójöfnur í útreikningum eða þau eru nauðsynleg í GeoGebra-innslætti. Engum innsláttarskipunum, hnitum í skjáskotum eða lokasvörum var breytt. Við áframhaldandi vinnu skal lýsa bilum og leyfilegum gildum fyrst í orðum og nota tákn aðeins þegar þau hjálpa við útreikning eða innslátt.
-
-Vafra- og prentprófun var endurtekin eftir breytinguna. GeoGebra-leiðsögnin er áfram tvær síður; engin yfirfylling kom fram við 390 px breidd og innri tenglar og gátlisti virkuðu.
-
-## Myndir minnkaðar um 35% – ósk kennara
-
-Í vefútgáfu 1.3 eru allar 32 myndir í meginmáli og GeoGebra-reit, ásamt mynd á forsíðu, birtar í 65% af fyrri breidd og hæð. Sama hlutfallslega minnkun gildir í prenthefti og við þrönga skjái. Hún nær til teikninga, hnitamynda og skjáskota í vefheftinu. Upprunalegar myndskrár, stærðarhlutföll og texti eru varðveitt. Sérstaka tveggja síðna GeoGebra-prentskjalið er óbreytt.
-
-Bein beiðni kennara heimilar þessa afmörkuðu breytingu á myndastærðum. Grunnstíll og hegðun eru varðveitt, með auðkenndri CSS-viðbót `lota17-image-size` sem heldur utan um responsive og prentmörk. Við síðari uppfærslur skal varðveita þessa viðbót ásamt minnkuðum myndmálum. Samanburður á raunverulegum stærðum staðfesti 65% hlutfall í vafra við 1360 px og 390 px og í prentstíl. Stílprófun grunnsins, tenglaprófun og sjónræn yfirferð prentsíðna stóðust.
-
-## Staðsetning teikninga
-
-| Mynd | Kafli | Dæmi eða umfjöllun |
+| Heimild | Síður sem voru lesnar | Viðfangsefni samanburðar |
 |---|---|---|
-| 01_vatnstankur_bls06.png | 2. tími | Vatn rennur jafnt í tóman tank |
-| 02_rafhlada_bls08.png | 3. tími | Hleðsla og notkun rafhlöðu |
-| 03_hjolaleiga_bls11.png | 5. tími | Hjólaleiga |
-| 04_merkimidar_bls12.png | 5. tími | Stakir hlutir gefa staka punkta |
-| 05_hitamaelir_bls12.png | 5. tími | Leiðrétting mælitækis |
-| 06_sparnadur_bls13.png | 5. tími | Söfnun með vikulegum innborgunum |
-| 07_tolvuvinna_bls16.png | 6.–8. tími | GeoGebra-leiðsögn |
-| 08_taupokar_bls21.png | 6.–8. tími | Framleiðsla á taupokum |
-| 09_kubbasula_bls22.png | 6.–8. tími | Smíði á líkani |
-| 10_minnisbaekur_bls26.png | 10. tími | Rétt hlutfall með stökum gildum |
+| [Skali 1A, nemendabók](https://vefir.mms.is/flettibaekur/namsefni/skali1anem/files/assets/common/downloads/publication.pdf), Námsgagnastofnun 2014; íslensk þýðing og staðfærsla Hanna Kristín Stefánsdóttir | Prentaðar bls. 124–126; PDF-síður 126–128 | Hnit, ásar, upphafspunktur, röð hnita, fjórðungar og leiðbeiningar um að merkja punkta. Bls. 124–125 voru einnig skoðaðar sem myndir. |
+| [Skali 1B, nemendabók](https://vefir.mms.is/flettibaekur/namsefni/skali1b/files/assets/common/downloads/publication.pdf), Námsgagnastofnun 2014; íslensk þýðing og staðfærsla Hanna Kristín Stefánsdóttir | Prentaðar bls. 22, 84, 96, 106, 109–110 og 132; PDF-síður 24, 86, 98, 108, 111–112 og 134 | Aflestur og tímaás, gildi stæðna, svigar, jöfnur, sömu aðgerðir báðum megin og prófun lausna. Bls. 109–110 voru einnig skoðaðar sem myndir. |
+| [Átta–tíu 6](https://rafhladan.is/bitstream/handle/10802/14825/8%20t%C3%ADu%206%20-%20st%C3%A6r%C3%B0fr%C3%A6%C3%B0i.pdf?sequence=1), Guðbjörg Pálsdóttir og Guðný Helga Gunnarsdóttir, Námsgagnastofnun 2008 | Prentaðar bls. 19–25; PDF-síðutal er hið sama | Samband orða, taflna, grafa og jafna; hallatala, skurðpunktar við ása, jafna úr tveimur punktum og prófun punkta. Bls. 21–23 voru einnig skoðaðar sem myndir. |
+| [Hugtakasafn í stærðfræði](https://rafhladan.is/bitstream/handle/10802/18188/Hugtakasafn%20%C3%AD%20st%C3%A6r%C3%B0fr%C3%A6%C3%B0i.pdf?sequence=1), Jón Þorvarðarson og Kristín Bjarnadóttir, Menntamálastofnun 2019 | Viðeigandi færslur á bls. 11–12, 15, 18, 20, 23, 28, 31, 36, 53 og 55; PDF-síðutal er hið sama | Fall, fallgildi, fastaliður, formúla, gildistafla, graf, hallatala, hnit, lína, jafnaðarmerki, samsíðungur og skurðpunktur. Blaðsíða 28 var einnig skoðuð sem mynd. |
+| [Skali 2A, nemendabók](https://vefir.mms.is/flettibaekur/namsefni/skali2anem/files/assets/common/downloads/publication.pdf), Námsgagnastofnun 2015 | Fyrri staðfest yfirferð á prentuðum bls. 68–69, 72–73, 78–80 og 84–88; PDF-síðutal tveimur hærra. Bls. 88 var lesin aftur í þessari umferð. | Föll og framsetning þeirra, línuleg föll, rétt hlutfall, hallatala, fastaliður og innsetning. Fyrri yfirferð valinna mynda var endurnýtt. |
 
-## Yfirferð
+Heimildabækur eru notaðar með gagnrýni. Til dæmis eru tölur í verkefni 15 á bls. 23 í Átta–tíu 6 ekki þær sömu og í sýnidæminu sem verkefnið vísar til. Engar tölur eða reikningar þaðan voru færð yfir í heftið.
 
-- Fastur stíll, hegðun, kaflaröð, vatnsmerki og innri tenglar staðfest með verkfæri viðbótarinnar.
-- Vafrapróf við 1360 px og 390 px: engin yfirfylling síðunnar, engar keyrsluvillur, hugtakatenglar og til-baka-flakk virka.
-- Gátlisti varðveitist við endurhleðslu og virkar þegar vafrageymsla er óaðgengileg.
-- Leiðsagnar­reitur opnast án JavaScript; til-baka-tengill prófaður með lyklaborði.
-- Allar staðbundnar myndir og PDF-tenglar staðfest. Upprunalegu tíu PNG-skrárnar eru varðveittar óbreyttar.
-- Prent-PDF yfirfarið sjónrænt, þar á meðal brot, reiknikeðjur, myndir, hugtakaskrá og GeoGebra-síðurnar.
+## Niðurstaða eftir köflum
 
-## Hýsing
+| Hluti heftisins | Yfirferð og breytingar |
+|---|---|
+| Yfirlit og 1. tími | Greint skýrar milli þess að lesa hnit og merkja punkta. Röð hnita, einingar á ásum, sami kvarði við rúmfræðiteikningar og orðalag um flatarmál skýrð. |
+| 2. tími | Gildistafla, graf, aflestur og einingar staðfest. Tengingu punkta lýst með tilvísun í regluna; ekki gefið í skyn að öll gröf séu beinar línur. |
+| 3. tími | Fastaliður skilgreindur sem liður án breytu. Tekið fram að aðeins fastaliður breytist þegar grafið færist lóðrétt. „Sama tímatal“ breytt í að tíminn sé talinn frá sama upphafi. Endurtekin áminning stytt. |
+| 4. tími | „x-gildi“ og „fallgildi“ notuð oftar samkvæmt svari kennara. Tengsl taflna og grafa, röð aðgerða og hlutfall breytinga samræmd. Sýnidæmi 8 heitir nú „Finna línulegt fall úr töflu“. |
+| 5. tími | Aðstæður skýra hvaða gildi koma til greina, án formlegra mengjahugtaka. Formerki hallatölu, breytur og einingar orðað skýrar. Kostnaður við stysta og lengsta leigutíma nefndur í stað „endagilda bilsins“. |
+| 6.–7. tími | Einangrun y skýrð sem að y standi eitt öðrum megin við jafnaðarmerkið. Innsláttur og raunveruleg valmyndaheiti GeoGebra yfirfarin án breytinga á skjáskotum eða skipunum. |
+| 8. tími | Hallatala, innsetning, fastaliður og prófun punkta staðfest. „Utan sýnilega grafsins“ breytt í „utan þess hluta hnitakerfisins sem sést“. |
+| 9. tími | Verkefnisfyrirmæli um tvær línur gerð skýrari. Munur láréttrar og lóðréttrar línu skýrður með x-gildum og y-gildum. |
+| Gátlisti, hugtök og myndatextar | Sama orðalagsval fært yfir. „Ferhyrningur“ notað í skilgreiningu samsíðungs. Fastaliður, sem er tala, áfram skýrt aðgreindur frá skurðpunkti. Markmiðið um mengi hefur verið einfaldað samkvæmt nýjustu ósk kennara. |
 
-Vefurinn er fullbúinn staðbundið. Einkaverkefni hefur verið stofnað hjá Sites en er óbirt. Sjálfvirk samþykkisyfirferð stöðvaði upphleðslu frumskráa vegna þess að heimild fyrir sendingu skólaefnis og tengiliðaupplýsinga á þennan áfangastað var ekki talin nægilega skýr. Ekkert hefti eða myndasafn var hlaðið þangað upp. Birting bíður heimildar kennara.
+## Val kennara og samfella
 
-Niðurhalspakkinn er sjálfstæður og má færa á aðra hýsingu. Einkavefur myndi krefjast innskráningar eiganda og væri ekki opinn nemendum sjálfkrafa. Birting eða innfelling á Google Sites hefur ekki verið prófuð; slík innfelling þarf raunverulega aðgengilega hýsingu.
+- Kennari samþykkti 23. nóvember 2026 að nota „x-gildi“ og „fallgildi“ oftar í stað „inntaks“ og „útkomu“, með einfaldri skýringu við fyrstu kynningu. „Útkoma“ er áfram eðlilegt orð um niðurstöðu reikniaðgerðar; „inntaksreitur“ er heiti reits í GeoGebra og heldur sér.
+- Fyrra samþykkt orðalag heldur gildi: „gildi í töflunni“ um töflur og „hnit punkta“ um gröf. „Gildapör“ eru ekki notuð í því samhengi.
+- Táknin h og k haldast þótt sumar heimildabækur noti a og b. Kennari óskaði síðar sama dag eftir að sleppa heitunum skilgreiningarmengi og myndmengi. Þau hafa verið fjarlægð úr nemendatexta, hugtakaskrá, gátlista og myndskeiðum. Gildi eru útskýrð með orðum eftir aðstæðum.
+- Leyfilegum gildum er að jafnaði lýst í orðum. Ójöfnur í raunverulegum GeoGebra-skipunum eru varðveittar.
+- Tímar 6–7 eru áfram einn kafli. Þar á eftir koma 8. og 9. tími. Allar 15 dæmatölurnar og kaflaauðkenni haldast. Gátlistinn hefur áfram 17 markmið; breytt markmið í 2. og 3. tíma fá ný auðkenni svo eldri hak flytjist ekki á breytt efni.
+
+## Prent og sannprófun
+
+- Heftið er nú 19 síður með nýju skilgreiningunni. Allar síður lokagerðar voru myndaðar og sjónrænt yfirfarnar, með nánari skoðun á lykilsíðum.
+- Leturgerðir, leturstærðir og línubil eru óbreytt. Allar 15 hnitamyndir halda nákvæmlega sömu stærð og áður og samræmdu Cambria Math letri. Nýju æfingarnar nota einnig samræmt Cambria Math letur í hnitamyndum.
+- Grunnútlit, myndferlar og eldri reikniskref heftisins eru óbreytt. Æfingareitir og virkni þeirra bætast við. Tvær afmarkaðar prentreglur halda nýju skilgreiningunni saman og sýnidæmi 8 með töflu og grafi. Öll 14 myndskeiðin eru óbreytt frá útgáfu 1.15.
+- Mælingar á tölvuskjá (1360 px), símum (390 og 320 px) og í prentbirtingu (687 px textaflötur) staðfesta óbreytt letur, myndstærðir og innri bil reikniskrefa. Engin lárétt klipping, brotnir innri tenglar eða myndir sem vantar fundust. Jafnaðarmerki standa áfram hvert undir öðru.
+- Gátlistinn rúmast á einni síðu. Myndir og tilheyrandi skýringar haldast saman. Letter-síðustærð, spássíur og síðufótur eru óbreytt.
+- Sjálfstæða GeoGebra-leiðsögnin er áfram tveggja síðna skrá með raunverulegum skjáskotum. Texti hennar var yfirfarinn og skráin er óbreytt. Merkimiðadæmið notar 1800 kr. fast gjald og 75 kr. á miða.
+
+## Skrár og fyrri vinnugögn
+
+`index.html` er uppfærða vefheftið; `lota17-prent.pdf` er samsvarandi prentútgáfa. `geogebra-leidsogn.pdf` er sérstaka leiðsögnin. Haldið myndamöppum og PDF-skrám með HTML-skjalinu. Vefútgáfan er á https://gnajons.github.io/Lota-17/. Sami pakki virkar einnig staðbundið.
+
+Frumverkefnin eru átta PDF-skrár kennara úr Lotu 17, kortlagðar í NAMSEFNISYFIRLIT.md. Þeim var ekki breytt. Fyrri útgáfa, breytingaskrá, heimildasíður og yfirferðargögn eru varðveitt utan afhendingarpakkans. Eldri myndskrár halda sér í myndamöppum til að varðveita fyrri vinnu.
+
+## Myndskeið og einfaldara efnisval
+
+Öll 14 myndskeiðin voru lesin í frumkóða og lykilrammar raunverulegra myndbandsskráa skoðaðir. Orðalag og efnisval voru samræmd núverandi hefti. Styttri hagnýt leiðsögn kemur í stað ítarlegra aukalausna. Sjá MYNDSKEID-YFIRFERD.md fyrir skrá um hvert myndskeið. Kennari samþykkti að tengja myndskeiðin inn í heftið í lokuðum reitum.
