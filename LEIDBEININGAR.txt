@@ -25,7 +25,7 @@ Setjið allan pakkann saman á hýsingu. Afritun HTML-kóðans ein og sér flytu
 NAMSEFNISYFIRLIT.md tengir núverandi tíma við upprunaleg verkefnablöð. KENNARANOTA.md skráir efnisval, heimildir og prófanir.
 
 MYNDSKEIÐ
-14 myndskeið eru í lokuðum reitum við viðeigandi kafla. Opnaðu reit og veldu spilun. Myndskeið og reitir þeirra birtast ekki í prenti. Frumkóði er í myndbond/frumkodar og yfirferð er skráð í MYNDSKEID-YFIRFERD.md.
+13 myndskeið eru í lokuðum reitum við viðeigandi kafla. Opnaðu reit og veldu spilun. Myndskeið og reitir þeirra birtast ekki í prenti. Frumkóði er í myndbond/frumkodar og yfirferð er skráð í MYNDSKEID-YFIRFERD.md.
 
 GAGNVIRKAR ÆFINGAR
 Neðst í hverjum efniskafla er lokaður reitur merktur „Æfing“. Tímar 6–7 hafa sameiginlega æfingu. Samtals eru átta æfingar og 57 verkefni.

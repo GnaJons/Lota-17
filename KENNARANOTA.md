@@ -60,7 +60,7 @@ Heimildabækur eru notaðar með gagnrýni. Til dæmis eru tölur í verkefni 15
 
 - Heftið er nú 19 síður með nýju skilgreiningunni. Allar síður lokagerðar voru myndaðar og sjónrænt yfirfarnar, með nánari skoðun á lykilsíðum.
 - Leturgerðir, leturstærðir og línubil eru óbreytt. Allar 15 hnitamyndir halda nákvæmlega sömu stærð og áður og samræmdu Cambria Math letri. Nýju æfingarnar nota einnig samræmt Cambria Math letur í hnitamyndum.
-- Grunnútlit, myndferlar og eldri reikniskref heftisins eru óbreytt. Æfingareitir og virkni þeirra bætast við. Tvær afmarkaðar prentreglur halda nýju skilgreiningunni saman og sýnidæmi 8 með töflu og grafi. Öll 14 myndskeiðin eru óbreytt frá útgáfu 1.15.
+- Grunnútlit, myndferlar og eldri reikniskref heftisins eru óbreytt. Æfingareitir og virkni þeirra bætast við. Tvær afmarkaðar prentreglur halda nýju skilgreiningunni saman og sýnidæmi 8 með töflu og grafi. Þau 13 myndskeið sem eru áfram í heftinu eru óbreytt frá útgáfu 1.15.
 - Mælingar á tölvuskjá (1360 px), símum (390 og 320 px) og í prentbirtingu (687 px textaflötur) staðfesta óbreytt letur, myndstærðir og innri bil reikniskrefa. Engin lárétt klipping, brotnir innri tenglar eða myndir sem vantar fundust. Jafnaðarmerki standa áfram hvert undir öðru.
 - Gátlistinn rúmast á einni síðu. Myndir og tilheyrandi skýringar haldast saman. Letter-síðustærð, spássíur og síðufótur eru óbreytt.
 - Sjálfstæða GeoGebra-leiðsögnin er áfram tveggja síðna skrá með raunverulegum skjáskotum. Texti hennar var yfirfarinn og skráin er óbreytt. Merkimiðadæmið notar 1800 kr. fast gjald og 75 kr. á miða.
@@ -73,4 +73,8 @@ Frumverkefnin eru átta PDF-skrár kennara úr Lotu 17, kortlagðar í NAMSEFNIS
 
 ## Myndskeið og einfaldara efnisval
 
-Öll 14 myndskeiðin voru lesin í frumkóða og lykilrammar raunverulegra myndbandsskráa skoðaðir. Orðalag og efnisval voru samræmd núverandi hefti. Styttri hagnýt leiðsögn kemur í stað ítarlegra aukalausna. Sjá MYNDSKEID-YFIRFERD.md fyrir skrá um hvert myndskeið. Kennari samþykkti að tengja myndskeiðin inn í heftið í lokuðum reitum.
+Myndskeiðin voru lesin í frumkóða og lykilrammar raunverulegra myndbandsskráa skoðaðir. Orðalag og efnisval voru samræmd núverandi hefti. Styttri hagnýt leiðsögn kemur í stað ítarlegra aukalausna. Sjá MYNDSKEID-YFIRFERD.md fyrir skrá um hvert myndskeið. Kennari samþykkti að tengja myndskeiðin inn í heftið í lokuðum reitum.
+
+## Afmörkuð uppfærsla 24. nóvember 2026
+
+Myndskeiðið „Aflestur og leiðrétt hitastig“ var tekið út úr vefheftinu og afhendingarpakkanum samkvæmt ósk kennara. Þrettán myndskeið eru eftir. Texti námsefnis, átta gagnvirkar æfingar og prent-PDF eru óbreytt.
