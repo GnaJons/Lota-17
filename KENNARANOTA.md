@@ -1,3 +1,17 @@
+# Kennaranóta – Lota 17, útgáfa 1.19
+
+24. nóvember 2026. Samþykktu myndbandaforsýningarnar og yfirfarnar æfingar eru felldar inn í heildarheftið samkvæmt beiðni kennara. Lesefnið, 25 hugtakaskilgreiningar, 15 sýnidæmi, 16 gátlistamarkmið og 20 síðna prent-PDF eru óbreytt frá útgáfu 1.18.
+
+Þrjú myndbönd hafa verið uppfærð með óbreyttri lengd: Liðir í línulegu falli, Hallatala og fastaliður og Röð aðgerða og svigar. Hin tíu halda sér. Fallstæða og fallgildi eru aðgreind, fastaliður er liður án breytu og y-hnit skurðpunktsins við y-ás, en (0,k) eru hnit punktsins. Sjá MYNDSKEID-YFIRFERD.md.
+
+Allar 53 spurningar í átta æfingum voru yfirfarnar, með svarmöguleikum, vísbendingum, svarskýringum og myndlýsingum. Orðalag var lagað í 22 spurningum. Að auki var langri reiknilínu í spurningu 5-5 skipt í tvær línur með jafnaðarmerki beint hvort undir öðru, án minni leturstærðar. Svör, röð, hnitamyndir, grafstærðir, letur og vistað framvindusnið haldast. GeoGebra og fjórar spurningar fyrir 6.–7. tíma halda sér. Í 9-6 er áfram talað um y-gildi lóðréttrar línu því hún er ekki graf falls af x.
+
+Við orðalagsyfirferðina voru lesnar sömu skilgreiningar og í lesefninu, ásamt Hugtakasafni í stærðfræði, Menntamálastofnun 2019, bls. 12, 18, 23, 33, 46 og 58, og Skala 1B, Námsgagnastofnun 2014, prentuðum bls. 133–134 (PDF-síðum 135–136). Samþykkt orðalagsval kennara heldur sér. Heimildalýsingar útgáfu 1.18 hér að neðan eru varðveittar.
+
+Allar spurningar hafa verið prófaðar með tómu, röngu og réttu svari, vísbendingum og lyklaborði. Framvinda, endurhleðsla, yfirlit og endurtekning voru prófuð. Breytingar á vefslóðum stuðla að því að vafrinn sæki nýju gögnin; geymslulyklar framvindu eru óbreyttir. Myndbönd og æfingar eru áfram í lokuðum reitum og falin í prenti.
+
+## Útgáfa 1.18 – varðveitt til heimildar
+
 # Kennaranóta – Lota 17, útgáfa 1.18
 
 24. nóvember 2026. Skilgreiningar á punkti, striki og línu bætast við 1. tíma með þremur einföldum vigurmyndum. Fallstæða bætist við 4. tíma og er aðgreind frá fallgildi með fyrirliggjandi falli í dæmi 7. Hnit punkts, hnitakerfi, gildistafla, graf, hallatala, fastaliður og línulegt fall eru skilgreind í viðeigandi lesköflum og hugtakaskrá. Fastaliðurinn k er tala, en skurðpunkturinn við y-ás hefur hnitin (0,k).

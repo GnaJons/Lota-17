@@ -183,7 +183,7 @@ class FormidYHxK(Scene):
         self.skyring("Breytuliðurinn er margfeldi hallatölunnar og x. Hann inniheldur breytuna.")
         self.mark("02_breytulidur");self.pausa(7)
         self.play(FadeIn(names[2]),FadeIn(vals[2]),Indicate(eq[4],color=APPELSINUGULT),run_time=1)
-        self.skyring("Fastaliðurinn inniheldur ekki x. Hann gefur y-gildið þegar x er núll.")
+        self.skyring("Fastaliður er liður án breytu. Hann er fallgildið þegar x er núll.")
         self.mark("03_fastalidur");self.pausa(7)
         self.skyring("Taktu formerkið með þegar þú lest hallatöluna og fastaliðinn.")
         self.mark("04_nidurstada")

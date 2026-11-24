@@ -325,7 +325,7 @@ class HallatalaOgFastalidur(Scene):
         point_rule = mathlina("x=0", r"\Rightarrow", "y=k", staerd=34).move_to([3.15, -1.90, 0])
         point_rule[2].set_color(APPELSINUGULT)
         self.play(FadeIn(point_rule), run_time=0.7)
-        self.skyring("Fastaliðurinn er y-gildið þar sem línan sker y-ás.", ("y-gildið",))
+        self.skyring("Fastaliðurinn er y-hnit skurðpunktsins við y-ás.", ("y-hnit",))
         self.play(Flash(intercept, color=APPELSINUGULT, line_length=0.12,
                         flash_radius=0.18), run_time=1)
         self.mark("05_skurdpunktur")
@@ -392,7 +392,7 @@ class HallatalaOgFastalidur(Scene):
                        texti("hækkar um eina einingu.", 29))
         htext.arrange(DOWN, buff=0.19).move_to([-3.25, -0.65, 0])
         ktext = VGroup(texti("Gildi y þegar x er núll.", 29),
-                       mathi("(0,k)", 36, APPELSINUGULT))
+                       VGroup(texti("Skurðpunktur:", 27), mathi("(0,k)", 36, APPELSINUGULT)).arrange(RIGHT, buff=0.18))
         ktext.arrange(DOWN, buff=0.24).move_to([3.25, -0.65, 0])
         divider = Line([0, 0.7, 0], [0, -1.45, 0], color=UTLINA,
                        stroke_width=1, stroke_opacity=0.35)

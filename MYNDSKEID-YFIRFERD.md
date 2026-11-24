@@ -25,3 +25,13 @@ MP4-skrárnar eru 1280 × 720 við 30 ramma á sekúndu. Allir rammar voru afkó
 Myndbönd byrja aðeins þegar nemandi velur spilun. Reitirnir eru lokaðir við opnun og sjást ekki í prenti. Vefútgáfa: https://gnajons.github.io/Lota-17/.
 
 Nýju myndskeiðin fyrir 6.–7. tíma voru samþykkt í forsýningu og síðan felld inn í heildarheftið 24. nóvember. Nákvæmar lengdir eru 49,9 s og 48,8 s; fyrirsagnir námunda að heilli sekúndu. Önnur 11 myndskeið haldast.
+
+## Samþykkt hugtakasamræming, útgáfa 1.19
+
+Öll 13 myndbönd voru borin saman við lesefnið og hugtakaskrá útgáfu 1.18. Texti sena og hjálparfalla var lesinn og 93 lykilrammar skoðaðir úr raunverulegum myndböndum. Eftirfarandi þrjú myndbönd voru endurgerð, samþykkt í forsýningu og felld inn í heftið:
+
+- **Liðir í línulegu falli**, 35,9 s: fastaliður skilgreindur sem liður án breytu og fallgildi við x = 0.
+- **Hallatala og fastaliður**, 117,233 s: fastaliður skýrður sem y-hnit skurðpunkts við y-ás; punkturinn (0,k) sérstaklega merktur „Skurðpunktur“ í lokaramma.
+- **Röð aðgerða og svigar**, 95,4 s: fallstæða nefnd við formúlurnar og fallgildi skýrt sem niðurstaða innsetningar x-gildis og reiknings.
+
+Lengdir, reikningar og dæmi halda sér. Öll myndgögn nýju MP4-skránna voru afkóðuð og 25 lykilrammar skoðaðir. Forsýningarmyndir nýju myndbandanna eru PNG úr sömu samþykktu myndböndum. Nýjustu breytanlegu frumskrárnar fylgja í myndbond/frumkodar. Hin tíu myndböndin halda sér. Eldri athugasemdir að ofan lýsa fyrri yfirferðum.

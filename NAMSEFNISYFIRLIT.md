@@ -1,6 +1,6 @@
 # Námsyfirlit – Lota 17
 
-Vefútgáfa 1.18 · 24. nóvember 2026 · 9. bekkur
+Vefútgáfa 1.19 · 24. nóvember 2026 · 9. bekkur
 
 Heftið er skipulagt í níu kennslutíma. Tímar 6–7 eru í einum kafla samkvæmt ákvörðun kennara. Núverandi 8. tími notar efni fyrri 9. tíma og 9. tími efni fyrri 10. tíma. Númer og heiti upprunalegra verkefnablaða eru varðveitt í heimildaskráningunni; frumblöðunum var ekki breytt.
 
@@ -86,3 +86,7 @@ Samtals 53 verkefni. GeoGebra-leikurinn í 6.–7. tíma er að auki tengdur sem
 | Línulegt fall | 5. tími: y = hx + k, fastar tölur h og k og punktar á beinni línu. |
 
 Glærur kennara „Lota 17 - Rúmfræði III.pdf“ voru nýttar sem stuðningur, einkum síður 22–23 og 29–31. Skilgreiningar voru einnig bornar saman við Hugtakasafn í stærðfræði og Skala 1B; sjá kennaranótu. Sýnidæmum, æfingum og myndböndum var ekki fjölgað við þessa viðbót.
+
+## Samræming myndbanda og æfinga
+
+Samþykktar forsýningar hafa verið felldar inn í heftið. Þrjú myndbönd hafa skýrari skilgreiningar og merkingar, með óbreyttri lengd. Allar átta æfingarnar nota sama hugtakaval og lesefnið; áfram eru 53 spurningar, þar af fjórar með GeoGebra í 6.–7. tíma. Lesefnið, gátlistinn og 20 síðna prent-PDF haldast óbreytt frá útgáfu 1.18.
