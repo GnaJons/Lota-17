@@ -1,44 +1,54 @@
-# -*- coding: utf-8 -*-
-"""Lota 17 — Sama lína eða samsíða?
-
-Hljóðlaust GGJ-kennslumyndband; jöfnur úr 6.–8. tíma í Lotu 17.
-Keyrsla: manim -pqm lota17_sama_lina_eda_samsida.py SamaLinaEdaSamsida
-Manim Community, LaTeX og dvisvgm þarf. Gæði eru valin við keyrslu.
-Latin Modern Roman OTF-letur og GUST/LPPL-leyfi fylgja innbyggð.
-"""
-
+"""Lota 17, 6.–7. tími: stutt myndband samkvæmt verkefnablaði 24.11.2026.
+Innbyggt Latin Modern letur og leyfisgögn. Gæði valin í Manim-skipun."""
 from html import escape as html_escape
+
 from math import atan2
+
 from unicodedata import normalize as unicode_normalize
+
 from pathlib import Path as FilePath
+
 import re
+
 from base64 import b64decode as _ggj_b64decode
+
 from io import BytesIO as _ggj_BytesIO
+
 from tempfile import TemporaryDirectory as _ggj_TemporaryDirectory
+
 from zipfile import ZipFile as _ggj_ZipFile
 
 import manimpango
+
 import numpy as np
+
 from manim import *
 
-
 __author__ = "GGJ"
+
 LETUR = "Latin Modern Roman"
+
 BAKGRUNNUR = "#FCF8F2"
+
 BLEK = "#2E2C29"
+
 GRATT = "#747678"
+
 GRAENT = "#4F7353"
+
 APPELSINUGULT = "#E97728"
+
 BLATT = "#728299"
+
 THRIHYRNINGUR = "#D9C5AF"
+
 UTLINA = "#7A858F"
-PAUSU_STUDULL = 1.0  # 1.2 gefur 20% lengri lestrarpásur.
 
+PAUSU_STUDULL = 1.0
 
-# Heldur tímabundnum leturskrám lifandi meðan Manim notar þær.
 _GGJ_FONT_DIR = None
-_GGJ_FONT_READY = False
 
+_GGJ_FONT_READY = False
 
 def setja_upp_letur():
     """Hlaða innbyggðu Latin Modern-letri fyrir þetta Manim-ferli.
@@ -102,7 +112,6 @@ def setja_upp_letur():
         + "; details=" + repr(villur)
     )
 
-
 def texti(efni, staerd=30, litur=BLEK, aherslur=(), feit=False):
     """Íslenskir stafir haldast saman við litun áhersluorða."""
     efni = unicode_normalize("NFC", efni)
@@ -123,11 +132,9 @@ def texti(efni, staerd=30, litur=BLEK, aherslur=(), feit=False):
     return MarkupText(markup, font=LETUR, font_size=staerd, color=litur,
                       weight=BOLD if feit else NORMAL)
 
-
 def mathi(latex, staerd=36, litur=BLEK):
     """LaTeX sér áfram um veldi, brot og rótartákn; letrið er ritvélarletur."""
     return MathTex(r"\mathtt{" + latex + "}", font_size=staerd, color=litur)
-
 
 def mathlina(*hlutar, staerd=54):
     # Bilin tilheyra hverjum lið svo litun og TransformFromCopy haldi
@@ -136,66 +143,59 @@ def mathlina(*hlutar, staerd=54):
             for i, h in enumerate(hlutar)]
     return MathTex(*brot, font_size=staerd, color=BLEK)
 
-
 import os
+
 import json
 
-class SamaLinaEdaSamsida(Scene):
-    """Einangra y og greina sömu línu frá aðskildum samsíða línum."""
+def innslattur(command, size=34, color=BLEK, max_width=12):
+    escaped = command.replace('{', r'\{').replace('}', r'\}')
+    m = mathi(r'\texttt{'+escaped+'}', size, color)
+    if m.width > max_width:
+        m.scale_to_fit_width(max_width)
+    return m
 
-    def pausa(self, seconds):
-        self.wait(seconds*PAUSU_STUDULL)
+def heimildarmynd(name, width, center):
+    from PIL import Image
+    array = np.array(Image.open(_ggj_BytesIO(_ggj_b64decode(_GGJ_GUIDE_IMAGES[name]))).convert('RGB'))
+    img = ImageMobject(array)
+    img.scale_to_fit_width(width).move_to(center)
+    return img
 
-    def skyring(self, content, highlights=()):
-        new = texti(content, 28, aherslur=highlights).move_to([0, -3.32, 0])
-        if new.width > 12.65:
-            new.scale_to_fit_width(12.65)
-        if self.caption is None:
-            self.play(FadeIn(new), run_time=0.6)
-        else:
-            self.play(FadeOut(self.caption), FadeIn(new), run_time=0.6)
-        self.caption = new
+def myndpunktur(img, x, y):
+    height, width = img.pixel_array.shape[:2]
+    return img.get_corner(UL)+RIGHT*(x/width*img.width)+DOWN*(y/height*img.height)
 
-    def mark(self, name):
-        self.merki.append({"name": name, "time": round(self.time, 3)})
-        qa = os.environ.get("GGJ_QA_DIR")
-        if qa:
-            from PIL import Image
-            FilePath(qa).mkdir(parents=True, exist_ok=True)
-            self.renderer.update_frame(self)
-            Image.fromarray(self.renderer.get_frame()).save(str(FilePath(qa)/(name+".png")))
+def myndrammi(img, box):
+    x, y, width, height = box
+    ph, pw = img.pixel_array.shape[:2]
+    return Rectangle(width=width/pw*img.width, height=height/ph*img.height,
+                     color=APPELSINUGULT, stroke_width=2.5).move_to(myndpunktur(img, x+width/2, y+height/2))
 
-    def construct(self):
-        setja_upp_letur()
-        self.camera.background_color = BAKGRUNNUR
-        self.caption, self.merki = None, []
-        self.add(texti("GGJ",18,GRATT).set_opacity(0.55).to_corner(DR,buff=0.22).set_z_index(100))
-        title=texti("Sama lína eða samsíða?",43,feit=True,aherslur=("Sama lína","samsíða",)).move_to([0,3.36,0])
-        general=mathlina('y=','h','x','+','k',staerd=51).move_to([0,2.25,0]);general[1].set_color(GRAENT);general[4].set_color(APPELSINUGULT)
-        ax=Axes(x_range=[-3,3,1],y_range=[-3,3,1],x_length=5,y_length=5,axis_config={"include_tip":False,"include_ticks":False,"color":UTLINA,"stroke_width":1.4}).move_to([-3.4,-.3,0])
-        line=Line(ax.c2p(-2.5,-2),ax.c2p(2.5,2),color=BLATT,stroke_width=3.5)
-        same=DashedLine(line.get_start(),line.get_end(),color=APPELSINUGULT,stroke_width=3.5,dash_length=.15)
-        note=VGroup(texti("Sama hallatala",30,GRAENT),texti("Sami fastaliður",30,APPELSINUGULT),texti("Sama lína",34)).arrange(DOWN,buff=.5).move_to([3.1,.1,0])
-        self.play(FadeIn(title),FadeIn(general),FadeIn(ax),run_time=1)
-        self.skyring("Einangraðu fyrst y í báðum jöfnum og berðu saman hallatölu og fastalið.")
-        self.pausa(6)
-        self.play(Create(line),Create(same),FadeIn(note),run_time=2)
-        self.skyring("Sama hallatala og sami fastaliður gefa sömu línu.")
-        self.mark("01_sama_lina");self.pausa(7)
-        other=Line(ax.c2p(-2.5,-.8),ax.c2p(2.25,3),color=APPELSINUGULT,stroke_width=3.5)
-        new=VGroup(texti("Sama hallatala",30,GRAENT),texti("Ólíkir fastaliðir",30,APPELSINUGULT),texti("Samsíða línur",34)).arrange(DOWN,buff=.5).move_to(note)
-        self.play(ReplacementTransform(same,other),ReplacementTransform(note,new),run_time=1.5)
-        self.skyring("Sama hallatala og ólíkir fastaliðir gefa samsíða línur.")
-        self.mark("02_samsida");self.pausa(7)
-        self.skyring("Berðu saman jöfnurnar eftir einföldun. Ólíkt útlit jafna segir ekki alla söguna.")
-        self.mark("03_nidurstada")
-        self.pausa(8)
-        timeline = os.environ.get("GGJ_TIMELINE")
-        if timeline:
-            FilePath(timeline).write_text(json.dumps({"duration":self.time,"marks":self.merki},ensure_ascii=False,indent=2),encoding="utf-8")
+def teikninet(xrange, yrange, xticks, yticks, width, height, center, x_label, y_label):
+    axes = Axes(x_range=xrange, y_range=yrange, x_length=width, y_length=height,
+                axis_config={"color": BLEK, "stroke_width": 1.7,
+                             "include_ticks": False, "include_tip": False})
+    axes.move_to(center)
+    grid, labels = VGroup(), VGroup()
+    for x in xticks:
+        if x != 0:
+            grid.add(Line(axes.c2p(x, yrange[0]), axes.c2p(x, yrange[1]),
+                          color=UTLINA, stroke_width=0.75, stroke_opacity=0.26))
+        labels.add(mathi(str(x), 20).next_to(axes.c2p(x, 0), DOWN, buff=0.11))
+    for y in yticks:
+        if y != 0:
+            grid.add(Line(axes.c2p(xrange[0], y), axes.c2p(xrange[1], y),
+                          color=UTLINA, stroke_width=0.75, stroke_opacity=0.26))
+            labels.add(mathi(str(y), 18).next_to(axes.c2p(0, y), LEFT, buff=0.11))
+    for m in labels:
+        m.add_background_rectangle(color=BAKGRUNNUR, opacity=1, buff=0.025)
+    xname = texti(x_label, 24).move_to(np.array(center)+DOWN*(height/2+0.43))
+    yname = texti(y_label, 24).move_to(np.array(center)+UP*(height/2+0.30)) if y_label else VGroup()
+    grid.set_z_index(-3)
+    axes.set_z_index(-2)
+    labels.set_z_index(5)
+    return axes, VGroup(grid, axes, labels, xname, yname)
 
-
-# Óbreytt letur og leyfisgögn úr samþykktum GGJ-grunni.
 _GGJ_FONT_ARCHIVE = (
     "UEsDBBQAAAAIAAVaRF0Xu8ilngIAAGEFAAAVAAAAR1VTVC1GT05ULUxJQ0VOU0UuVFhUjVRha9swEP3eX3EECi24dpqxwcoYlC0p"
     "HW0X1pTuq2KfE22y5Ely3fz7PklxkpYxZvzF8t27997d6ZgWa+kI7xNbJ42m83ycUSU8VzSZ0LdOM03G448ZmZr8munq4X5BM6M9"
@@ -1868,3 +1868,82 @@ _GGJ_FONT_ARCHIVE = (
     "AAAAAACAAaM2AABsbXJvbWFuMTAtYm9sZC5vdGZQSwECFAMUAAAACAAFWkRdJY5kA2PaAACwswEAFQAAAAAAAAAAAAAAgAEwDQEA"
     "bG1yb21hbjEwLXJlZ3VsYXIub3RmUEsFBgAAAAAFAAUARgEAAMbnAQAAAA=="
 )
+
+_GGJ_GUIDE_IMAGES = {}
+
+class GGJStutt(Scene):
+    def byrja(self, title):
+        setja_upp_letur()
+        self.camera.background_color=BAKGRUNNUR
+        self.caption=None
+        self.merki=[]
+        self.add(texti('GGJ',18,GRATT).set_opacity(.55).to_corner(DR,buff=.22).set_z_index(100))
+        self.title=texti(title,43,feit=True).move_to([0,3.35,0])
+        self.play(FadeIn(self.title),run_time=.7)
+    def skyring(self, text, highlights=()):
+        new=texti(text,28,aherslur=highlights).move_to([0,-3.25,0])
+        assert new.width<12.9,(text,new.width)
+        self.play(*([FadeOut(self.caption)] if self.caption is not None else []),FadeIn(new),run_time=.4)
+        self.caption=new
+    def mark(self, name):
+        self.merki.append({'name':name,'time':round(self.time,3)})
+    def lok(self):
+        target=os.environ.get('GGJ_TIMELINE')
+        if target:FilePath(target).write_text(json.dumps({'duration':self.time,'marks':self.merki},ensure_ascii=False,indent=2),encoding='utf-8')
+    def hreinsa(self, objects):
+        self.play(*[FadeOut(x) for x in objects],run_time=.5)
+
+class HallatalaOgSkurdpunktur(GGJStutt):
+    def construct(self):
+        self.byrja('Hallatala og skurðpunktur')
+        ax,grid=teikninet([-1,5,1],[-2,4,1],range(-1,6),range(-2,5),4.8,4.8,[-3.65,-.3,0],'','')
+        axisnames=VGroup(mathi('x',22).next_to(ax.c2p(5,0),RIGHT,buff=.10),mathi('y',22).next_to(ax.c2p(0,4),UP,buff=.10))
+        line=Line(ax.c2p(-1,-5/3),ax.c2p(5,7/3),color=BLATT,stroke_width=3.5)
+        dot=Dot(ax.c2p(0,-1),radius=.07,color=APPELSINUGULT)
+        general=mathlina('y=','h','x+','k',staerd=43).move_to([3.0,2.0,0])
+        general[1].set_color(GRAENT);general[3].set_color(APPELSINUGULT)
+        eq=mathlina('y=',r'\frac23','x','-1',staerd=50).move_to([3.0,1.12,0])
+        eq[1].set_color(GRAENT);eq[3].set_color(APPELSINUGULT)
+        note=VGroup(texti('Hallatala',28,GRAENT),mathi(r'h=\frac23',40,GRAENT),texti('Skurðpunktur við y-ás',28),mathi('(0,-1)',40,APPELSINUGULT)).arrange(DOWN,buff=.20).move_to([3.0,-.95,0])
+        self.play(FadeIn(grid),FadeIn(axisnames),Create(line),FadeIn(dot),FadeIn(general),FadeIn(eq),FadeIn(note),run_time=1.3)
+        self.skyring('Hallatalan er stuðullinn við x. Fastaliðurinn er y-hnit skurðpunktsins.')
+        self.mark('01_hallatala_og_skurdpunktur');self.wait(8)
+        right=Arrow(ax.c2p(0,-1),ax.c2p(3,-1),buff=0,color=APPELSINUGULT,stroke_width=3,max_tip_length_to_length_ratio=.10)
+        up=Arrow(ax.c2p(3,-1),ax.c2p(3,1),buff=0,color=APPELSINUGULT,stroke_width=3,max_tip_length_to_length_ratio=.12)
+        three=mathi('+3',26,APPELSINUGULT).next_to(right,DOWN,buff=.12)
+        two=mathi('+2',26,APPELSINUGULT).next_to(up,RIGHT,buff=.12).shift(UP*.35)
+        point=Dot(ax.c2p(3,1),radius=.07,color=BLATT)
+        self.play(GrowArrow(right),FadeIn(three),run_time=.8)
+        self.play(GrowArrow(up),FadeIn(two),FadeIn(point),run_time=.8)
+        self.skyring('Þrjár einingar til hægri og tvær upp. Brotið lýsir hlutfalli breytinganna.')
+        self.mark('02_thrir_haegri_tvaer_upp');self.wait(7)
+        self.hreinsa([right,up,three,two,point,note,general,eq])
+        other=Line(ax.c2p(-1,1/3),ax.c2p(4.5,4),color=APPELSINUGULT,stroke_width=3.5)
+        dot2=Dot(ax.c2p(0,1),radius=.07,color=APPELSINUGULT)
+        eqs=VGroup(mathi(r'y=\frac23x-1',45,BLATT),mathi(r'y=\frac23x+1',45,APPELSINUGULT),texti('Sama hallatala',30,GRAENT),texti('Ólíkir fastaliðir',30),texti('Samsíða línur',33,feit=True)).arrange(DOWN,buff=.36).move_to([3.0,0,0])
+        self.play(Create(other),FadeIn(dot2),FadeIn(eqs),run_time=1.2)
+        self.skyring('Línurnar hækka jafn mikið þegar farið er jafn langt til hægri.')
+        self.mark('03_samsida');self.wait(8)
+        self.hreinsa([grid,axisnames,line,dot,other,dot2,eqs])
+        heading=texti('Einangraðu y fyrst',32,feit=True).move_to([-3.3,2.05,0])
+        left=VGroup(mathi('x+y',43),mathi('x+y-x',43),mathi('y',43))
+        rightparts=VGroup(mathi('5',43),mathi('5-x',43),mathi('-x+5',43))
+        signs=VGroup()
+        for i,y in enumerate([1.25,.45,-.35]):
+            sign=mathi('=',43).move_to([-3.05,y,0]);signs.add(sign)
+            left[i].next_to(sign,LEFT,buff=.16);rightparts[i].next_to(sign,RIGHT,buff=.16)
+        ax2,grid2=teikninet([-1,6,1],[-1,6,1],range(-1,7),range(-1,7),4.8,4.8,[3.5,-.2,0],'','')
+        names2=VGroup(mathi('x',22).next_to(ax2.c2p(6,0),RIGHT,buff=.1),mathi('y',22).next_to(ax2.c2p(0,6),UP,buff=.1))
+        line2=Line(ax2.c2p(-1,6),ax2.c2p(6,-1),color=BLATT,stroke_width=3.5)
+        dot3=Dot(ax2.c2p(0,5),radius=.07,color=APPELSINUGULT)
+        self.play(FadeIn(heading),FadeIn(left[0]),FadeIn(signs[0]),FadeIn(rightparts[0]),FadeIn(grid2),FadeIn(names2),run_time=.8)
+        self.skyring('Dragðu x frá báðum hliðum. Þá stendur y eitt vinstra megin.')
+        self.play(FadeIn(left[1]),FadeIn(signs[1]),FadeIn(rightparts[1]),run_time=.7);self.wait(2)
+        self.play(FadeIn(left[2]),FadeIn(signs[2]),FadeIn(rightparts[2]),Create(line2),FadeIn(dot3),run_time=1.0)
+        answer=VGroup(mathi('h=-1',36,GRAENT),mathi('(0,5)',36,APPELSINUGULT)).arrange(RIGHT,buff=.6).move_to([-3.3,-1.45,0])
+        detail=texti('Hallatala og skurðpunktur',27).move_to([-3.3,-2.05,0])
+        self.play(FadeIn(answer),FadeIn(detail),run_time=.6)
+        self.mark('04_einangra_y');self.wait(9)
+        self.skyring('Neikvæð hallatala: línan lækkar þegar farið er til hægri.')
+        self.mark('05_nidurstada');self.wait(5)
+        self.lok()

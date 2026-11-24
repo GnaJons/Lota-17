@@ -1,3 +1,55 @@
+# Kennaranóta – Lota 17, útgáfa 1.17
+
+24. nóvember 2026. Samþykktur kafli fyrir sameiginlegan 6.–7. tíma, tvö stutt myndbönd og fjögurra spurninga æfing hafa verið felld inn í heildarheftið. Upphaflegt kaflaauðkenni, sýnidæmisnúmer 11–12 og eldri innri tenglar haldast. Sjö aðrir kennslukaflar halda sama efni. Prentheftið er 19 síður; meginletur, línubil og samþykktar grafstærðir haldast.
+
+Nú eru 15 sýnidæmi, 13 myndskeið og átta gagnvirkar æfingar með samtals 53 spurningum/verkefnum. Gátlisti hefur 16 markmið; aðeins markmið 6.–7. tíma voru endursamin og fá ný auðkenni. Merkingar annarra tíma og eldri æfinga eru varðveittar. Nýja æfingin notar útgáfu 2 af eigin framvindulykli.
+
+## Samanburður eftir styttingu
+
+Lokaútgáfan var borin saman við nýja skjalið **Lota17 GeoGebra 6 og 7 timi.docx**, breytt 24. nóvember kl. 17:40, allar töflur, liði og tengla. Brotið í 17.40 c er einn þriðji, staðfest í stærðfræðihluta Word-skjalsins og sjónrænni yfirferð. Frumskjalinu var ekki breytt.
+
+| Verkefni | Undirbúningur í lokahefti | Niðurstaða |
+|---|---|---|
+| 17.38, færa punkta | Stutt fyrirmæli og sama GeoGebra-verkefni; tengill bæði við leiðsögn og æfingu. | Opnast beint í Classic. Færsla punkts og hnappurinn „Ný lína“ prófuð. |
+| 17.39 a–d, teikna fjórar línur | y = hx + k, skurðpunktur (0,k), formerki hallatölu, dæmi 11 og innsláttarleiðsögn. | Nægilegt; notaðar aðrar jöfnur í sýnidæmum. |
+| 17.39, bera saman a/b og c/d | Reglan um samsíða línur og skýring á breytingu y þegar x hækkar um eina einingu. | Nægilegt. Tvær fyrstu æfingaspurningarnar og fyrra myndband styðja þessi atriði. |
+| 17.40 a og c | Dæmi 11 notar hallatölu sem er brot og greinir fastalið frá hnitum skurðpunkts. | Nægilegt; nákvæmt brot notað við teikningu. |
+| 17.40 e | Dæmi 12: x + y = 5, sama frádráttarskref báðum megin, síðan y = −x + 5. | Stutt skilgreining á að einangra y endurheimt við innsetningu svo hún týnist ekki við styttingu. Æfingaspurning 3 styður aðferðina. |
+| 17.48 a, jafna palls | Breytur og einingar skilgreindar, upphafsgildi og breyting rædd. Línuleg líkön eru þegar kennd í 5. tíma. | Nemendur velja sjálfir jöfnuna. Hvorki jafna verkefnisins né vikufjöldasvar þess birtist í leskafla, myndböndum eða æfingu. |
+| 17.48 b, lesa vikur | Marklína í tengdu hnitakerfi; leiðbeining um að fylgja skurðpunkti niður á x-ás. | Nægilegt. Æfingaspurning 4 er stuttur aflestur með öðrum gildum, án fullrar hliðstæðrar líkanslausnar. |
+| Útskýra 86 og 3, skjáskot | Kaflinn greinir upphafshæð og breytingu á viku; fyrirmæli um jöfnur, ása, skurðpunkt og skjáskot. | Nægilegt, einnig í prentútgáfu án myndbanda. |
+
+### Samfella við framhaldsverkefni
+
+Nýju skrárnar **17.8 dæmi.pdf** (4 síður) og **17.9 dæmi.pdf** (2 síður), breyttar 24. nóvember, voru lesnar til að athuga afleiðingar styttingar 6.–7. tíma. Þær voru ekki endursamdar og æfingar/myndbönd 8. og 9. tíma voru ekki endurgerð í þessari afmörkuðu uppfærslu.
+
+| Blað og verkefni | Kennsla sem stendur eftir | Mat |
+|---|---|---|
+| 8. tími, 17.38–17.41 | Formerki, fastaliður og brot í 3., 5. og 6.–7. tíma; aflestur í 8. tíma. | Lárétt lína og hallatala 0 eru útskýrð á verkefnablaðinu sjálfu og í dæmi 15 í 9. tíma. Þetta er tilgreind kennsluröð, ekki nýr skortur eftir styttingu. |
+| 8. tími, 17.42–17.44 | Formúla hallatölu, jafna úr tveimur punktum og innsetning í dæmum 13–14 í 8. tíma. | Kennslan er enn til staðar þótt eldri útreikningur hallatölu úr tveimur punktum hafi horfið úr dæmi 11. |
+| 8. tími, 17.45–17.47, einnig pipruð dæmi | Málsgreinin „Sama aðferð fyrir fleiri punkta“ í 8. tíma: bera saman hallatölur, prófa þriðja punkt og finna hnit sem vantar. | Nægilegt; brot og formerki eiga áfram við. |
+| 9. tími, 17.48–17.50 | Orð/formúlur og röð aðgerða í 4. tíma; samfelld gildi og líkön í 5. tíma; hagnýtar ábendingar í 9. tíma. | Prósentuhækkun byggir á fyrri prósentureikningi. Að finna tíma nýtir einangrun og aflestur sem standa eftir. |
+| 9. tími, 17.51 b–c | Stakir punktar og heiltölufjöldi í dæmi 10; aflestur og kvarði í 1.–2. tíma. | Nægilegt; gamla GeoGebra-punktalistaleiðsögnin er ekki eina kennslan í þessari færni. |
+| 9. tími, 17.51 a | Nýja verkefnablaðið nefnir „rétt hlutfall“. | Skráð frávik: kennari hefur sérstaklega óskað að sleppa hugtakinu úr heftinu. Því er það ekki endurvakið hér. Frávikið er ekki afleiðing styttingar 6.–7. tíma. |
+| 9. tími, 17.62 a–i | Dæmi 13–14 um jöfnu úr punktum og dæmi 15 um lárétta/lóðrétta línu og fall af x. | Nægilegt. Nauðsynleg skref og sértilvikin eru enn í prentútgáfu. |
+
+### Bókarráðfæring
+
+**Átta–tíu 6**, Guðbjörg Pálsdóttir og Guðný Helga Gunnarsdóttir, Námsgagnastofnun 2008, prentuð bls. 22, var skoðuð aftur úr varðveittri heimildarmynd: jafna línu, merking hallatölu, skurðpunktur (0,b), neikvæð hallatala og hallatala úr tveimur punktum. Tákn kennarans h og k haldast. Fyrri staðfest samanburðarvinna við Skala er varðveitt hér að neðan; ekki er fullyrt að allar bækur hafi verið yfirfarnar aftur.
+
+### Tenglar, miðlar og varðveisla
+
+- Sameiginlegur kafli: `#timi-06-08`; æfing: `#aefing-timi-6-7` og `aefingar/timi-6-7/index.html`.
+- Sömu grunnverkefni og á nýja blaðinu, með nýjum tölum í æfingunni. Þema hennar er hallatala/skurðpunktur, samsíða línur, einangrun y og aflestur vikna.
+- GeoGebra-verkefnið hefur auðkennið `ybdcrenx`. Bein slóð `https://www.geogebra.org/classic/ybdcrenx` var prófuð með raunverulegri færslu punkts og nýrri línu. Hún er sama verkefni og `/m/ybdcrenx` á blaðinu.
+- Myndskeiðin „Hallatala og skurðpunktur“ (49,9 s) og „GeoGebra: jafna og skurðpunktur“ (48,8 s) koma í stað tveggja eldri myndskeiða. Bæði hafa verið skoðuð, afkóðuð og prófuð í spilara. Eldra aflestursmyndband sem kennari lét taka út er áfram utan pakkans.
+- Gamla tveggja síðna `geogebra-leidsogn.pdf` er varðveitt sem eldra ítarefni um dæmi úr 3. og 5. tíma. Hún er ekki lengur tengd sem leiðsögn við nýja 6.–7. tíma. Nauðsynleg leiðsögn þessa kafla er í uppfærða prentheftinu.
+- Framvinda, rangt/rétt svar, vísbendingar, yfirlit, endurhleðsla, brot og tugabrot, geymsluvillur og skjástærðir hafa verið prófuð. Tenglar, kaflaflakk, gátlisti, myndbandsspilun og innfellda æfingin voru prófuð eftir innsetningu.
+
+## Eldri yfirferð – varðveitt til heimildar
+
+Eftirfarandi eldri útgáfulýsing gildir um fyrri vinnu; staðan í útgáfu 1.17 er hér að ofan.
+
 # Kennaranóta – Lota 17
 
 Útgáfa 1.16 · 23. nóvember 2026

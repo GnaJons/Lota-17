@@ -1,7 +1,7 @@
 LOTA 17 – VEFHEFTI
-Útgáfa 1.16 · 23. nóvember 2026
+Útgáfa 1.17 · 24. nóvember 2026
 
-Heftið nær yfir níu kennslutíma. Tímar 6–7 eru saman í einum kafla; þar á eftir koma 8. og 9. tími. Sýnidæmin eru númeruð 1–15 og gátlistinn hefur 17 markmið eftir tímum.
+Heftið nær yfir níu kennslutíma. Tímar 6–7 eru saman í einum kafla; þar á eftir koma 8. og 9. tími. Sýnidæmin eru númeruð 1–15 og gátlistinn hefur 16 markmið eftir tímum.
 
 Opnaðu index.html í nýlegum Chrome, Edge eða Firefox. Haltu myndir/, geogebra/, graf/, myndbond/ og aefingar/ möppunum og PDF-skránum með HTML-skjalinu.
 
@@ -16,7 +16,7 @@ Prentuppsetningin hefur þéttari síðuskipti og heldur myndum með skýringum.
 
 PDF TIL PRENTUNAR
 lota17-prent.pdf: 19 síður.
-geogebra-leidsogn.pdf: tvær síður með raunverulegum skjáskotum.
+geogebra-leidsogn.pdf: eldra, valfrjálst ítarefni fyrir 3. og 5. tíma. Ný leiðsögn fyrir 6.–7. tíma er inni í lota17-prent.pdf.
 Prentið í 100% stærð eða „Raunstærð“ á Letter til að varðveita samþykkta sniðið.
 
 HÝSING OG GOOGLE SITES
@@ -28,8 +28,11 @@ MYNDSKEIÐ
 13 myndskeið eru í lokuðum reitum við viðeigandi kafla. Opnaðu reit og veldu spilun. Myndskeið og reitir þeirra birtast ekki í prenti. Frumkóði er í myndbond/frumkodar og yfirferð er skráð í MYNDSKEID-YFIRFERD.md.
 
 GAGNVIRKAR ÆFINGAR
-Neðst í hverjum efniskafla er lokaður reitur merktur „Æfing“. Tímar 6–7 hafa sameiginlega æfingu. Samtals eru átta æfingar og 57 verkefni.
+Neðst í hverjum efniskafla er lokaður reitur merktur „Æfing“. Tímar 6–7 hafa sameiginlega æfingu. Samtals eru átta æfingar og 53 verkefni.
 
 Opnaðu reitinn og leystu eitt verkefni í einu. „Vísbending“ veitir hjálp og „Athuga svar“ gefur endurgjöf. Þú getur farið til baka eða valið verkefni úr yfirliti. „Æfa aftur“ byrjar sömu verkefni upp á nýtt. Framvinda hvers tíma geymist sérstaklega í vafranum þegar vafrageymsla er tiltæk. Engin nöfn eða svör eru send til kennara.
 
-Talnasvör mega innihalda kommu eða punkt, mínus og brot, t.d. −1,5 eða −3/2. Æfingarnar virka í reitnum eða í sér glugga. Þær fylgja ZIP-pakkanum og þurfa ekki nettengingu. Þær birtast ekki í prenti. Vefútgáfa: https://gnajons.github.io/Lota-17/.
+Talnasvör mega innihalda kommu eða punkt, mínus og brot, t.d. −1,5 eða −3/2. Æfingarnar virka í reitnum eða í sér glugga. Spurningarnar fylgja ZIP-pakkanum og virka án nettengingar. GeoGebra-tenglarnir þurfa nettengingu. Þær birtast ekki í prenti. Vefútgáfa: https://gnajons.github.io/Lota-17/.
+
+6.–7. TÍMI
+Nýi kaflinn fylgir Lota17 GeoGebra 6 og 7 timi.docx. Tvö myndskeið eru um 50 sekúndur hvort. Æfingin byrjar á GeoGebra-tengli og hefur síðan fjórar stuttar spurningar með vísbendingum og yfirferð.
