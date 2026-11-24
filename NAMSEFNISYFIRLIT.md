@@ -1,6 +1,6 @@
 # Námsyfirlit – Lota 17
 
-Vefútgáfa 1.17 · 24. nóvember 2026 · 9. bekkur
+Vefútgáfa 1.18 · 24. nóvember 2026 · 9. bekkur
 
 Heftið er skipulagt í níu kennslutíma. Tímar 6–7 eru í einum kafla samkvæmt ákvörðun kennara. Núverandi 8. tími notar efni fyrri 9. tíma og 9. tími efni fyrri 10. tíma. Númer og heiti upprunalegra verkefnablaða eru varðveitt í heimildaskráningunni; frumblöðunum var ekki breytt.
 
@@ -8,10 +8,10 @@ Heftið er skipulagt í níu kennslutíma. Tímar 6–7 eru í einum kafla samkv
 
 | Tími í hefti | Upprunalegt verkefnablað | Verkefni | Sýnidæmi | Efni |
 |---|---|---|---|---|
-| 1 | 17.1 dæmi.pdf | 17.1–17.9 | 1–2 | Hnit, kvarði, fjórðungar, hornpunktar og flatarmál. |
+| 1 | 17.1 dæmi.pdf | 17.1–17.9 | 1–2 | Punktur, strik, lína, hnitakerfi, hnit, kvarði, fjórðungar, hornpunktar og flatarmál. |
 | 2 | 17.2 dæmi.pdf | 17.10–17.16 | 3–4 | Gildistafla, graf, aflestur og einingar. |
 | 3 | 17.3 dæmi.pdf | 17.17–17.22 | 5–6 | Jafna beinnar línu, fastaliður, samsíða línur og graf í tveimur hlutum. |
-| 4 | 17.4 dæmi.pdf | 17.23–17.31 | 7–8 | Orð, formúla, röð aðgerða og regla úr töflu. |
+| 4 | 17.4 dæmi.pdf | 17.23–17.31 | 7–8 | Fallstæða, fallgildi, orð, formúla, röð aðgerða og regla úr töflu. |
 | 5 | 17.5 dæmi.pdf | 17.32–17.37 | 9–10 | Hallatala, fastaliður, gildi sem passa við aðstæður og líkan. |
 | 6.–7. | Lota17 GeoGebra 6 og 7 timi.docx | 17.38, 17.39 a–d, 17.40 a/c/e og 17.48 a–b | 11–12 | Hallatala, skurðpunktur við y-ás, samsíða línur, einangrun y og GeoGebra. |
 | 8 | 17.8 dæmi.pdf | 17.38–17.47 | 13–14 | Jafna úr tveimur punktum, prófun punkta og hnit sem vantar. |
@@ -54,7 +54,7 @@ Gátlistinn hefur 16 markmið, skipt eftir sömu tímum og í yfirliti. Hver kaf
 
 Stöðug kaflaauðkenni halda gömlu númerunum þar sem þess þarf til að eldri tenglar virki: `timi-06-08` birtist sem 6.–7. tími, `timi-09` sem 8. tími og `timi-10` sem 9. tími. Tenglar á fjarlægð dæmi vísa á viðkomandi kafla. GeoGebra-leiðsögn 6.–7. tíma fylgir nú nýja Word-blaðinu. Tvö stutt myndskeið og fjórar spurningar fylgja kaflanum.
 
-Prentútgáfan er 19 síður. Eldri tveggja síðna GeoGebra-leiðsögnin er varðveitt sem ítarefni fyrir 3. og 5. tíma.
+Prentútgáfan er 20 síður. Eldri tveggja síðna GeoGebra-leiðsögnin er varðveitt sem ítarefni fyrir 3. og 5. tíma.
 
 ## Gagnvirkar æfingar
 
@@ -70,3 +70,19 @@ Prentútgáfan er 19 síður. Eldri tveggja síðna GeoGebra-leiðsögnin er var
 | 9 | Veldu aðferðina | 7 | aefingar/timi-9/ |
 
 Samtals 53 verkefni. GeoGebra-leikurinn í 6.–7. tíma er að auki tengdur sem ytri æfing. Æfingarnar byggja á ofangreindum frumblöðum með nýjum sambærilegum dæmum. Þær birtast aðeins á vefnum; prentheftið inniheldur lesefnið og sýnidæmin.
+
+## Hugtök sem kennari óskaði eftir
+
+Öll hugtökin eru útskýrð í lesköflunum sjálfum og hafa smellanlega færslu í sameiginlegri hugtakaskrá.
+
+| Hugtak | Kynning í lesefni |
+|---|---|
+| Punktur, strik og lína | 1. tími, þrjár litlar myndir með skilgreiningum. |
+| Hnitakerfi og hnit punkts | 1. tími, á undan fyrsta sýnidæmi. |
+| Gildistafla og graf | 2. tími, tengsl taflna og punkta. |
+| Fallstæða og fallgildi | 4. tími, tengt fallinu f(x) = 4x − 1 í fyrirliggjandi dæmi 7. |
+| Hallatala | 3. og 5. tími; aðferð úr hnitum áfram í 8. tíma. |
+| Fastaliður og skurðpunktur | 3. og 5. tími: k er tala en (0,k) eru hnit skurðpunkts. |
+| Línulegt fall | 5. tími: y = hx + k, fastar tölur h og k og punktar á beinni línu. |
+
+Glærur kennara „Lota 17 - Rúmfræði III.pdf“ voru nýttar sem stuðningur, einkum síður 22–23 og 29–31. Skilgreiningar voru einnig bornar saman við Hugtakasafn í stærðfræði og Skala 1B; sjá kennaranótu. Sýnidæmum, æfingum og myndböndum var ekki fjölgað við þessa viðbót.

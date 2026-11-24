@@ -1,3 +1,27 @@
+# Kennaranóta – Lota 17, útgáfa 1.18
+
+24. nóvember 2026. Skilgreiningar á punkti, striki og línu bætast við 1. tíma með þremur einföldum vigurmyndum. Fallstæða bætist við 4. tíma og er aðgreind frá fallgildi með fyrirliggjandi falli í dæmi 7. Hnit punkts, hnitakerfi, gildistafla, graf, hallatala, fastaliður og línulegt fall eru skilgreind í viðeigandi lesköflum og hugtakaskrá. Fastaliðurinn k er tala, en skurðpunkturinn við y-ás hefur hnitin (0,k).
+
+Heftið hefur áfram 15 sýnidæmi, 13 myndskeið, átta æfingar með 53 verkefnum og 16 gátlistamarkmið. Sjálf dæmin, hnitamyndirnar, myndskeiðsreitirnir, æfingareitirnir og gátlistinn voru borin saman við útgáfu 1.17 og eru óbreytt. Samþykkti kaflinn fyrir 6.–7. tíma heldur sér orðrétt. Þessi viðbót fellir enga fyrri aðferð eða skýringu út.
+
+## Heimildir þessarar afmörkuðu viðbótar
+
+- Glærur kennara **Lota 17 - Rúmfræði III.pdf**, 37 síður, úr Lotu 17 fyrir 9. bekk 2025–2026: allur útdreginn texti lesinn, glærur 22–23 og 29–31 einnig skoðaðar sem myndir. Þær styðja sérstaklega fallstæðu, fallgildi og tengsl hallatölu, fastaliðar og skurðpunkts. Nýtt efni er orðað sjálfstætt og tengt fyrirliggjandi dæmum heftisins.
+- **Hugtakasafn í stærðfræði**, Jón Þorvarðarson og Kristín Bjarnadóttir, Menntamálastofnun 2019: færslur á bls. 12, 18, 23, 33, 46 og 58 lesnar í þessari umferð. Þær skilgreina fallstæðu, fallgildi, fastalið, gildistöflu, graf, hnit, hnitakerfi, línu, línulegt fall, punkt og strik. Beinir heimildatenglar eru í varðveittri heimildaskrá hér að neðan.
+- **Skali 1B**, Námsgagnastofnun 2014, íslensk þýðing og staðfærsla Hanna Kristín Stefánsdóttir: prentaðar bls. 133–134 (PDF-síður 135–136) lesnar, einkum punktur, lína og strik. Fyrri staðfest bókarráðfæring um hallatölu og jöfnu línu stendur áfram; ekki er fullyrt að allar kennslubækurnar hafi verið yfirfarnar að nýju.
+
+Glærurnar eru heimild, ekki fyrirmæli um breytingar á verkefnum. Setningin „og öfugt“ á glæru 6 var ekki tekin upp: fall má gefa sama fallgildi fyrir fleiri en eitt x-gildi. Einnig var ósamræmi í síðasta hniti á glæru 13 ekki flutt yfir. Þessar villur breyttu engum dæmum í heftinu.
+
+## Yfirferð og prent
+
+Öll tólf umbeðin heiti hafa nú skilgreiningu í lesefni og hugtakaskrá, samtals 25 hugtök. Tenglar í skilgreiningarnar og til baka í texta voru prófaðir. Stöðug eldri auðkenni halda sér. Nýju myndirnar eru vigurmyndir; bókstafir þeirra birtast í Cambria Math í sömu stærð og meginmálið, án smækkunar við breytingu skjástærðar.
+
+Prentheftið er 20 síður, áður 19. Hugtakaskráin rúmast áfram á tveimur síðum með endurröðun skyldra hugtaka í dálka. Letur, línubil og samþykktar stærðir hnitamynda eru óbreytt. Allar prentsíður voru skoðaðar á yfirlitsmynd, nýju kaflarnir og báðar hugtakasíðurnar einnig sérstaklega. Myndir af punkti, striki og línu haldast með eigin skilgreiningu. Vefurinn var prófaður á 1360, 760, 390 og 320 px breidd; engin lárétt klipping og engar myndir vantaði. Fyrri æfingar og myndskeið eru óbreytt.
+
+## Útgáfa 1.17 – varðveitt til heimildar
+
+Eftirfarandi skrá lýsir fyrri uppfærslu 6.–7. tíma. Nýjustu hugtakaviðbætur og síðufjöldi eru skráð hér að ofan.
+
 # Kennaranóta – Lota 17, útgáfa 1.17
 
 24. nóvember 2026. Samþykktur kafli fyrir sameiginlegan 6.–7. tíma, tvö stutt myndbönd og fjögurra spurninga æfing hafa verið felld inn í heildarheftið. Upphaflegt kaflaauðkenni, sýnidæmisnúmer 11–12 og eldri innri tenglar haldast. Sjö aðrir kennslukaflar halda sama efni. Prentheftið er 19 síður; meginletur, línubil og samþykktar grafstærðir haldast.

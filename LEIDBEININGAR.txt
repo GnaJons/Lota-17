@@ -1,5 +1,5 @@
 LOTA 17 – VEFHEFTI
-Útgáfa 1.17 · 24. nóvember 2026
+Útgáfa 1.18 · 24. nóvember 2026
 
 Heftið nær yfir níu kennslutíma. Tímar 6–7 eru saman í einum kafla; þar á eftir koma 8. og 9. tími. Sýnidæmin eru númeruð 1–15 og gátlistinn hefur 16 markmið eftir tímum.
 
@@ -15,7 +15,7 @@ Merkingar geymast í sama vafra þegar vafrageymsla er tiltæk. Ný, sameinuð m
 Prentuppsetningin hefur þéttari síðuskipti og heldur myndum með skýringum. Letur, línubil og stærð grafanna haldast óbreytt; gátlistinn rúmast á einni síðu.
 
 PDF TIL PRENTUNAR
-lota17-prent.pdf: 19 síður.
+lota17-prent.pdf: 20 síður.
 geogebra-leidsogn.pdf: eldra, valfrjálst ítarefni fyrir 3. og 5. tíma. Ný leiðsögn fyrir 6.–7. tíma er inni í lota17-prent.pdf.
 Prentið í 100% stærð eða „Raunstærð“ á Letter til að varðveita samþykkta sniðið.
 
@@ -36,3 +36,6 @@ Talnasvör mega innihalda kommu eða punkt, mínus og brot, t.d. −1,5 eða −
 
 6.–7. TÍMI
 Nýi kaflinn fylgir Lota17 GeoGebra 6 og 7 timi.docx. Tvö myndskeið eru um 50 sekúndur hvort. Æfingin byrjar á GeoGebra-tengli og hefur síðan fjórar stuttar spurningar með vísbendingum og yfirferð.
+
+HUGTÖK
+Punktur, strik og lína eru skilgreind með myndum í 1. tíma. Hugtökin á lista kennara eru skilgreind í viðeigandi lesköflum og í hugtakaskrá. Fallstæða og fallgildi eru aðgreind í 4. tíma; fastaliður er tala en skurðpunktur hefur hnit. Hugtakaskráin hefur 25 hugtök og rúmast á tveimur prentsíðum.
